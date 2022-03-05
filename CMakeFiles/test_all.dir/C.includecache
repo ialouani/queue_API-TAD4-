@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/queue_API-TAD4-/./queue.h
+
+/home/user/queue_API-TAD4-/queue.c
+./queue.h
+/home/user/queue_API-TAD4-/./queue.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/user/queue_API-TAD4-/tests_API__queue.c
+./queue.h
+/home/user/queue_API-TAD4-/./queue.h
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+
